@@ -1,0 +1,14 @@
+mkdir James_Ackah_Blay
+cd James_Ackah_Blay
+touch aws.sh
+touch certificate.pdf
+touch myfile.txt
+chmod 744 aws.sh 
+chmod 642 certificate.pdf
+chmod 644 myfile.txt 
+
+zip James_Ackah_Blay.zip "James_Ackah_Blay"
+
+ls -l
+
+
